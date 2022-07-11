@@ -1,0 +1,42 @@
+{
+  "owners": [
+    {
+      "firstName": "Hanna",
+      "lastName": "Datsenko",
+      "age": "36",
+      "adrress": "Dnipro city",
+      "phone": "+380992717166"
+    },
+    {
+      "firstName": "Vova",
+      "lastName": "Zelenskiy",
+      "age": "45",
+      "adrress": "Kiev city",
+      "phone": "+380956662596"
+    },
+    {
+      "firstName": "Kolya",
+      "lastName": "Lukashenko",
+      "age": "88",
+      "adrress": "Minsk city",
+      "phone": "+380662715168"
+    }
+  ],
+  "pets": [
+    {
+     "name": "Yutas",
+     "owner": "Hanna Datsenko",
+     "age": "2"
+    },
+    {
+     "name": "Tuzik",
+     "owner": "Vova Zelenskiy",
+     "age": "5"
+    },
+     {
+      "name": "Putin",
+      "owner": "Kolya Lukashenko",
+      "age": "75"
+     }
+  ]
+}
