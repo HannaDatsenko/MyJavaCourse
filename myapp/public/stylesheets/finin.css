@@ -1,0 +1,180 @@
+html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+
+}
+header {
+  background: #000001;
+  opacity: 0.7;
+  border-bottom: 5px solid #B8860B;
+  height: 12%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#registr, #door{
+  background: #000001;
+  opacity: 0.7;
+  border: 2px solid #B8860B;
+  color: #B8860B;
+  font-size: 22px;
+  font-family: sans-serif;
+  height: 60%;
+  margin-left: 15px;
+  padding: 3px 3px 3px 3px;
+}
+
+#account, #logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 15px;
+  margin-right: 45px;
+  align-self: center;
+}
+
+main {
+  height: 76%;
+  background-image: url(../images/hanna-h.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.first-row, .second-row{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.goout, .button-find{
+  margin-left: 5%;
+}
+
+
+#guest, datalist{
+  width: 16%;
+  height: 60%;
+}
+
+.button-find{
+  width: 25%;
+}
+
+.find{
+  width: 100%;
+  height: 50px;
+  background: #000001;
+  color: #B8860B;
+  opacity: 0.7;
+
+}
+
+
+.arrive, .goout{
+  margin-bottom: 5%;
+}
+
+.arrive, .arrive input, #guest, #guests, .quentity label,
+.goout input, .goout, .button-find, .find{
+  font-size: 25px;
+
+}
+
+.quentity{
+  width: 20%;
+}
+
+footer{
+  background: #000001;
+  opacity: 0.7;
+  border-top: 5px solid #B8860B;
+  color: #B8860B;
+  font-size: 18px;
+  font-family: sans-serif;
+  height: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+footer div{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+
+  header {
+    background: #000001;
+    opacity: 0.7;
+    border-bottom: 5px solid #B8860B;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .first-row, .second-row{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .goout, .button-find{
+    margin-left: 0%;
+  }
+
+  .quentity{
+    width: 100%;
+  }
+
+  .button-find{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+
+  .arrive, .arrive input, #guest, #guests, .quentity label,
+  .goout input, .goout, .button-find, .find{
+    opacity: 80%;
+
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .adress, .phone-email{
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
