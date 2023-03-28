@@ -1,0 +1,30 @@
+<div id="main">
+    <div class="first-row">
+        <div class="arrive">
+            Дата заезда: <input id="arrive" type="date" required>
+        </div>
+        <div class="goout">
+            Дата выезда: <input id="away" type="date" required>
+        </div>
+    </div>
+    <div id="date-check">
+        <span id="date-message"></span>
+    </div>
+    <div class="second-row">
+        <div class="quentity">
+            <label for="guest">Количество гостей:
+            </label>
+            <input list="guests" name="guest" id="guest">
+            <datalist id="guests">
+                <option value="1">
+                <option value="2">
+                <option value="3">
+                <option value="4">
+            </datalist>
+        </div>
+        <div class="button-find">
+            <button class="find" id="button-filter" onclick="Validate(this.id)">Поиск
+            </button>
+        </div>
+    </div>
+</div>

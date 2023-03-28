@@ -1,0 +1,439 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+header {
+    background: #372825;
+    border-bottom: 5px solid #B8860B;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#registr, #door{
+    background: #372825;
+    opacity: 0.7;
+    border: 2px solid #B8860B;
+    color: #B8860B;
+    font-size: 22px;
+    font-family: sans-serif;
+    height: 60%;
+    margin-left: 15px;
+    padding: 3px 3px 3px 3px;
+    width: 130px;
+    text-align: center;
+}
+#account, #logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15px;
+    margin-right: 45px;
+    align-self: center;
+}
+main {
+    height: 76%;
+}
+#main{
+    height: 100%;
+    background-image: url(/images/hanna-h.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.main{
+    background: #372825;
+    align-items: stretch;
+    height: 100%;
+    display: flex;
+    margin: 0px;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.roominfo{
+    border: 1px solid #B8860B;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2px;
+}
+.roomsphoto{
+    width: 100%;
+    height: 33%;
+}
+.describe{
+    width: 100%;
+    height: 40%;
+    font-size: 15px;
+    color: #B8860B;
+    padding: 1px 1px 1px 1px;
+    text-align: center;
+}
+.roomsphoto img{
+    width: 100%;
+    height: 100%;
+}
+button:hover{
+    cursor: pointer;
+}
+.other{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 27%;
+}
+#price{
+    font-size: 15px;
+    color: #B8860B;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.surname-name, .phone-book{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.surname-name{
+    margin-bottom: 4px;
+}
+#suname, #phone{
+    width: 40%;
+}
+#name{
+    width: 30%;
+}
+.first-row, .second-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.goout, .button-find{
+    margin-left: 5%;
+}
+#guest, datalist{
+    width: 16%;
+    height: 60%;
+}
+.button-find{
+    width: 25%;
+}
+.find{
+    width: 100%;
+    height: 50px;
+    background: #000001;
+    color: #B8860B;
+    opacity: 0.7;
+}
+.arrive, .arrive input, #guest, #guests, .quentity label,
+.goout input, .goout, .button-find, .find{
+    font-size: 25px;
+}
+.quentity{
+    width: 20%;
+}
+footer{
+    background: #372825;
+    border-top: 5px solid #B8860B;
+    color: #B8860B;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+footer div{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#registr, #door, #logo, #button-registr, #button-enterence, .find:hover{
+    cursor: pointer;
+}
+#registr-menu, #door-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 130px;
+    align-items: center;
+    height: 28%;
+}
+#registr-menu{
+    left: 78%;
+    top: 9%;
+}
+#door-menu{
+    left: 88%;
+    top: 9%;
+    height: 28%;
+}
+#registr-menu div{
+    width: 70%;
+}
+#door-menu div{
+    width: 70%;
+}
+.login-text, .password-text, #login-text, #password-text{
+    width: 100%;
+}
+#block-button-enterence, #block-button-registr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#registr-menu, #door-menu{
+    background: #372825;
+    border: 2px solid #B8860B;
+    color: #B8860B;
+}
+.mystyleVisible{
+    visibility: visible;
+}
+.mystyleHidden{
+    visibility: hidden;
+}
+#date-check{
+    display: flex;
+    justify-content: center;
+}
+#date-check span {
+    vertical-align:middle;
+}
+
+@media screen and (max-width: 700px){
+    header {
+        background: #372825;
+        border-bottom: 5px solid #B8860B;
+        height: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .first-row, .second-row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .goout, .button-find{
+        margin-left: 0%;
+    }
+    .quentity{
+        width: 100%;
+    }
+    .button-find{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+    .arrive, .arrive input, #guest, #guests, .quentity label,
+    .goout input, .goout, .button-find, .find{
+        opacity: 80%;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 12%;
+    }
+    .adress, .phone-email{
+        width: 100%;
+        text-align: center;
+    }
+    #main{
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 250%;
+    }
+    #registr-menu{
+        left: 29%;
+        top: 12%;
+        height: 12%;
+    }
+    #door-menu{
+        left: 51%;
+        top: 12%;
+        height: 12%;
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1080px){
+    #registr-menu{
+        left: 69%;
+        top: 8%;
+        width: 13%;
+        height: 12%;
+    }
+    #door-menu{
+        left: 83%;
+        top: 8%;
+        width: 13%;
+        height: 12%;
+    }
+    #main {
+        background-size: 200%;
+    }
+}
+
+@media (max-width: 420px)
+{
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 12%;
+        width: 100vw;
+
+    }
+
+    body {
+
+        width: 100vw;
+        height: 100%;
+
+
+    }
+    main{
+        height: 76%;
+        align-items: stretch;
+        display: flex;
+    }
+    #main {
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-size: 170%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 12px;
+
+    }
+
+    .main{
+        background: #372825;
+        align-items: stretch;
+        height: 100%;
+        display: flex;
+        margin: 0px;
+        justify-content: left;
+        flex-wrap: wrap;
+        flex-direction: row;
+        overflow: scroll;
+    }
+
+    #registr-menu{
+        left: 45%;
+    }
+
+    #door-menu{
+        left: 68%;
+    }
+
+    #guest {
+        width: 53px;
+    }
+
+    #registr, #door{
+        background: #372825;
+        opacity: 0.7;
+        border: 2px solid #B8860B;
+        color: #B8860B;
+        font-size: 10px;
+        font-family: sans-serif;
+        height: 60%;
+        margin-left: 5px;
+        padding: 3px 3px 3px 3px;
+        width: 60px;
+        text-align: center;
+    }
+    #account, #logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 20px;
+        align-self: center;
+
+
+    }
+    #logo {
+        hight: 80%;
+        width: 80%;
+    }
+
+    #logo img{
+        hight: 100%;
+        width: 100%;
+
+    }
+
+    footer{
+        background: #372825;
+        border-top: 5px solid #B8860B;
+        color: #B8860B;
+        font-size: 10px;
+        font-family: sans-serif;
+        height: 12%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #registr-menu, #door-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        width: 80px;
+        align-items: center;
+        height: 28%;
+        top: 60px;
+        font-size: 10px;
+    }
+
+    #button-registr, #button-enterence{
+        font-size: 8px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

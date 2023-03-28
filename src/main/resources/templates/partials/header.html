@@ -1,0 +1,45 @@
+<div>
+    <div id="logo" onclick="window.location.reload()">
+        <img th:src="@{/images/lokos.png}">
+    </div>
+</div>
+<div id="account">
+    <div id="registr" onclick="VisibleMenu(this.id)">
+        <span>Регистрация</span>
+    </div>
+    <div id="door" onclick="VisibleMenu(this.id)">
+        <span>Войти</span>
+    </div>
+</div>
+<div id="registr-menu" class="mystyleHidden">
+    <div id="login">
+        Логин: <input class="login-text" type="text">
+    </div>
+    <div id="password">
+        Пароль: <input class="password-text" type="password">
+    </div>
+    <div>
+        <span class="mystyleHidden" id="messageregistr"></span>
+    </div>
+    <div id="block-button-registr">
+        <button id="button-registr" onclick="Validate(this.id)">
+            Регистрация
+        </button>
+    </div>
+</div>
+<div id="door-menu" class="mystyleHidden">
+    <div id="door-login">
+        Логин: <input id="login-text" type="text">
+    </div>
+    <div id="door-password">
+        Пароль: <input id="password-text" type="password">
+    </div>
+    <div class="mystyleHidden">
+        <span id="messageenterence" class="mystyleHidden"></span>
+    </div>
+    <div id="block-button-enterence">
+        <button id="button-enterence" onclick="Validate(this.id)">
+            Войти
+        </button>
+    </div>
+</div>

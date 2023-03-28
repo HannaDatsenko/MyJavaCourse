@@ -1,0 +1,20 @@
+spring:
+  jpa:
+    hibernate:
+     ddl-auto: update
+    show-sql: true
+
+    properties:
+      hibernate.format_sql: true
+      hibernate.highlight_sql: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/My_DataBase
+    username: postgres
+    password: fpfptkm1985
+    driver-class-name: org.postgresql.Driver
+
+    hikari:
+      idle-timeout: 600000
+      connection-timeout: 30000
+      max-lifetime: 1800000
